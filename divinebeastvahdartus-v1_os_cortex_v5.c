@@ -76,6 +76,11 @@ task usercontrol()
 {
 	while(true){
 		drive_left(vexRT[Ch3]);
+		drive_right(vexRT[Ch2]);
+		while(vexRT[Btn7U]==1){
+			while(vexRT[Btn5U]==1){
+		}
+		//test
 
 
 
